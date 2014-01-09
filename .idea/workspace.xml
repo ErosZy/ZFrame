@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a829b4b-42ab-4754-90c4-dfb602c4ca69" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ZFrame.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sass_stdlib.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/example.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/index.tpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/App.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/download.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/post.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/redirect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/session.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/static.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/text.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/xss.js" />
-    </list>
+    <list default="true" id="8a829b4b-42ab-4754-90c4-dfb602c4ca69" name="Default" comment="" />
     <ignored path="ZFrame.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,9 +24,7 @@
         <entry file="file://$PROJECT_DIR$/lib/cookie.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="54" column="13" selection-start="1302" selection-end="1302" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -55,9 +33,7 @@
         <entry file="file://$PROJECT_DIR$/lib/session.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="4" column="0" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -202,6 +178,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZFrame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZFrame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -228,13 +218,13 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.editor" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="E:/js/zhoubao" />
+    <property name="options.lastSelected" value="preferences.editor" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="E:/js/zhoubao" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -384,30 +374,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/view.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="22" selection-start="145" selection-end="145" vertical-scroll-proportion="0.25179857">
-          <folding />
-        </state>
+        <state line="7" column="22" selection-start="145" selection-end="145" vertical-scroll-proportion="0.25179857" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/text.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="9" selection-start="13" selection-end="13" vertical-scroll-proportion="0.035971224">
-          <folding />
-        </state>
+        <state line="1" column="9" selection-start="13" selection-end="13" vertical-scroll-proportion="0.035971224" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/post.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/download.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="9" selection-start="13" selection-end="13" vertical-scroll-proportion="0.035971224">
-          <folding />
-        </state>
+        <state line="1" column="9" selection-start="13" selection-end="13" vertical-scroll-proportion="0.035971224" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.json">
@@ -419,39 +401,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/static.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="14" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="15" column="14" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/zframe.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="38" selection-start="303" selection-end="303" vertical-scroll-proportion="0.4676259">
-          <folding />
-        </state>
+        <state line="13" column="38" selection-start="303" selection-end="303" vertical-scroll-proportion="0.4676259" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/index.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="26" selection-start="996" selection-end="996" vertical-scroll-proportion="0.24460432">
-          <folding />
-        </state>
+        <state line="54" column="26" selection-start="996" selection-end="996" vertical-scroll-proportion="0.24460432" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/redirect.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="134" selection-end="134" vertical-scroll-proportion="0.35971224">
-          <folding />
-        </state>
+        <state line="10" column="1" selection-start="134" selection-end="134" vertical-scroll-proportion="0.35971224" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="27" selection-start="482" selection-end="482" vertical-scroll-proportion="0.82733816">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="32" column="27" selection-start="482" selection-end="482" vertical-scroll-proportion="0.82733816" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/example.js">
@@ -464,18 +434,14 @@
     <entry file="file://$PROJECT_DIR$/lib/cookie.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="13" selection-start="1302" selection-end="1302" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/session.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
