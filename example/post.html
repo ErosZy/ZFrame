@@ -1,0 +1,25 @@
+<html>
+<head>
+    <meta charset="UTF-8"/>
+</head>
+<body>
+<!--aaaaaaa-->
+<form action="http://localhost:8080/index" method="post"
+      enctype="multipart/form-data">
+    <input type="file" name="myfile[]"/>
+    <input type="file" name="myfile[]"/>
+    <input type="text" name="age" value="12"/>
+<br />
+<input type="submit" name="submit" value="Submit" />
+</form>
+
+<form action="http://localhost:8080/index" method="post">
+    <input type="text" name="name"/>
+    <input type="text" name="id"/>
+    <input type="text" name="age"/>
+    <br />
+    <input type="submit" name="submit" value="Submit" />
+</form>
+
+</body>
+</html>

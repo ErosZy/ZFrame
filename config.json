@@ -1,0 +1,9 @@
+{
+    "publicPath" : "./public/",
+    "templatePath" : "./template/",
+    "serializePath" : "./template/_serialize/",
+    "lefter" : "<@",
+    "righter" : "@>",
+    "cache" : false,
+    "cacheTime" : 0
+}
