@@ -17,54 +17,60 @@
         // 变量读取的逻辑也一样
 
         <h2>if的测试</h2>
-        <@ if(data.id < 100) { @>
-            hello <@ data.name @> !
-        <@ }else{ @>
+        <% if(data.id < 100) { %>
+            hello <% data.name %> !
+        <% }else{ %>
             <h2>error!</h2>
-        <@ } @>
+        <% } %>
 
         <hr/>
 
         <h2>for的测试</h2>
-        <@ for(var i=0;i<10;i++) { @>
-            <@ i @>
-        <@ } @>
+        <% for(var i=0;i<10;i++) { %>
+            <% i %>
+        <% } %>
 
         <hr/>
 
         <h2>while的测试</h2>
-        <@ var j = 0; @>
-        <@ while(j < 5) { @>
-            <i><@j++@></i>
-        <@ } @>
+        <% var j = 0; %>
+        <% while(j < 5) { %>
+            <i><%j++%></i>
+        <% } %>
 
         <hr/>
         <h2>do-while的测试</h2>
-        <@ do{ @>
-            <@ j @>
-        <@ }while(j++<10); @>
+        <% do{ %>
+            <% j %>
+        <% }while(j++<10); %>
 
         <hr/>
 
 
         //switch不推荐写在模板中，因为书写不足够美观，并且完全可以用if来代替
-        <@
+        <%
             switch(j){
                 case 11:
-        @>
-                <@data.id@>
-        <@
+        %>
+                <%data.id%>
+        <%
                     break;
 
                 default:break;
             }
-        @>
+        %>
 
-        &lt;<script>&gt;
-            //js代码也需要保证正常
-            document.body.style.background = "red";
-        \<\/script\>
-
+        <script src="./js/jquery-1.8.3.min.js"></script>
+        <script>
+            $.ajax({
+                url: "./index/100/zysuper",
+                type: "get",
+                dataType: "json",
+                success: function(data){
+                    alert(data.name);
+                }
+            });
+        </script>
     </body>
     <!--this is test-->
 </html>

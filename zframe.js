@@ -1,14 +1,16 @@
+/*加载lib中的核心类文件*/
 
-exports.App = require("./lib/App.js");
+var fs = require("fs"),
+    _config = require("./config.json"),
+    _files = [];
 
-exports.static = require("./lib/static.js");
+_files = fs.readdirSync(_config.libPath);
 
-exports.post = require("./lib/post.js");
+if(!_files.length) throw new Error("zFrame can't complete init");
 
-exports.view = require("./lib/view.js");
+for(var i = 0,_length = _files.length ; i< _length ; i++){
+    var _key = _files[i].slice(0,-3),
+        _path = _config.libPath + "/" + _files[i];
 
-exports.cookie = require("./lib/cookie.js");
-
-exports.session = require("./lib/session.js");
-
-exports.xss = require("./lib/xss.js");
+    exports[_key] = require(_config.libPath + "/" + _files[i]);
+}
