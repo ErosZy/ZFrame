@@ -1,5 +1,6 @@
 {
-    "libPath": "./lib/",
+    "zframePath": "./",
+    "libPath" : "./lib/",
     "publicPath" : "./public/",
     "templatePath" : "./template/",
     "serializePath" : "./template/_serialize/",

@@ -19,6 +19,7 @@ App.get("./index/:id/:name",function(req,res){
 });
 
 App.get("./index02",function(req,res){
+    console.log(1);
     var v = new View(res,true,5),
         _id = req.params && req.params.id ? req.params.id : 1;
 
