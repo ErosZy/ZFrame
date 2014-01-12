@@ -1,14 +1,8 @@
-App.post("./index",function(req,res){
-    var _path = "./"+req.files[0].name,
-        _data = req.files[0].data;
+var index = 1;
 
-    fs.writeFile(_path,_data,function(err){
-        if(err) throw err;
-        console.log("success");
-    });
-
-    res.writeHead(404,{"Content-Type":"text/html"});
-    res.write("error!your age is"+req.body.age);
+App.get("./index",function(req,res){
+    console.log("this is index");
+    console.log(req.url);
     res.end();
 });
 
@@ -18,8 +12,7 @@ App.get("./index/:id/:name",function(req,res){
     res.end();
 });
 
-App.get("./index02",function(req,res){
-    console.log(1);
+App.get("./index02/:id/:name",function(req,res){
     var v = new View(res,true,5),
         _id = req.params && req.params.id ? req.params.id : 1;
 

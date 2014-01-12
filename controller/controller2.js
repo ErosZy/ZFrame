@@ -5,6 +5,9 @@
  * Time: 下午9:23
  * To change this template use File | Settings | File Templates.
  */
-App.get("./index04",function(req,res){
-    console.log(1);
+var index = 2;
+App.post("./index03",function(req,res){
+    console.log("this is index03");
+    res.statusCode = 200;
+    res.end();
 })

@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a829b4b-42ab-4754-90c4-dfb602c4ca69" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/controller2.js" />
-      <change type="DELETED" beforePath="C:\Users\zhaoyang07\ZFrame\controller\main.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\zhaoyang07\ZFrame\zframe.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/util.js" />
+      <change type="MOVED" beforePath="C:\Users\zhaoyang07\ZFrame\lib\zframe.js" afterPath="$PROJECT_DIR$/lib/ZFrame.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.json" afterPath="$PROJECT_DIR$/config.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/controller.js" afterPath="$PROJECT_DIR$/controller/controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/controller2.js" afterPath="$PROJECT_DIR$/controller/controller2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/App.js" afterPath="$PROJECT_DIR$/lib/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/cookie.js" afterPath="$PROJECT_DIR$/lib/cookie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/session.js" afterPath="$PROJECT_DIR$/lib/session.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/static.js" afterPath="$PROJECT_DIR$/lib/static.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/view.js" afterPath="$PROJECT_DIR$/lib/view.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.js" afterPath="$PROJECT_DIR$/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/_serialize/index.tpl.nhtml" afterPath="$PROJECT_DIR$/template/_serialize/index.tpl.nhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/index.tpl" afterPath="$PROJECT_DIR$/template/index.tpl" />
     </list>
     <ignored path="ZFrame.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,29 +47,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/post.js" />
-        <option value="$PROJECT_DIR$/lib/App.js" />
-        <option value="$PROJECT_DIR$/lib/session.js" />
-        <option value="$PROJECT_DIR$/controller/example.js" />
-        <option value="$PROJECT_DIR$/modal/moda.js" />
-        <option value="$PROJECT_DIR$/template/_serialize/index.tpl.nhtml" />
-        <option value="$PROJECT_DIR$/lib/view.js" />
-        <option value="$PROJECT_DIR$/controller/main.js" />
-        <option value="$PROJECT_DIR$/template/index.tpl" />
         <option value="$PROJECT_DIR$/modal/modal.js" />
         <option value="$PROJECT_DIR$/modal/zframe.js" />
         <option value="$PROJECT_DIR$/lib/zframe.js" />
+        <option value="$PROJECT_DIR$/lib/static.js" />
+        <option value="$PROJECT_DIR$/lib/view.js" />
+        <option value="$PROJECT_DIR$/lib/ZFrame.js" />
         <option value="$PROJECT_DIR$/config.json" />
-        <option value="$PROJECT_DIR$/controller/controller.js" />
+        <option value="$PROJECT_DIR$/lib/cookie.js" />
+        <option value="$PROJECT_DIR$/lib/session.js" />
+        <option value="$PROJECT_DIR$/lib/util.js" />
+        <option value="$PROJECT_DIR$/template/index.tpl" />
+        <option value="$PROJECT_DIR$/lib/post.js" />
         <option value="$PROJECT_DIR$/main.js" />
         <option value="$PROJECT_DIR$/controller/controller2.js" />
+        <option value="$PROJECT_DIR$/controller/controller.js" />
+        <option value="$PROJECT_DIR$/lib/App.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="width" value="1364" />
-    <option name="height" value="728" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -159,20 +168,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZFrame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZFrame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -199,13 +194,13 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.editor" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="E:/js/zhoubao" />
+    <property name="options.lastSelected" value="preferences.editor" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="E:/js/zhoubao" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -230,7 +225,7 @@
       </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <configuration default="false" name="controller" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="./main.js" working-dir="$PROJECT_DIR$">
+    <configuration default="false" name="controller" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="./main.js" working-dir="$PROJECT_DIR$" coffeescript-run="false">
       <RunnerSettings RunnerId="NodeJS.debug" />
       <RunnerSettings RunnerId="NodeJS.run" />
       <ConfigurationWrapper RunnerId="NodeJS.debug" />
@@ -269,18 +264,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="0" width="1364" height="728" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15622641" sideWeight="0.24204947" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15622641" sideWeight="0.34452298" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39045936" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15413254" sideWeight="0.2113402" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15413254" sideWeight="0.3298969" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39003438" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40106007" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286219" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44673538" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286219" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -341,108 +336,133 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="58" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/lib/App.js</url>
+          <line>173</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="63" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/post.js">
+    <entry file="file://$PROJECT_DIR$/lib/download.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/redirect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/session.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" />
+        <state line="15" column="17" selection-start="275" selection-end="276" vertical-scroll-proportion="0.5339806">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/static.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/text.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/view.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="10" selection-start="98" selection-end="98" vertical-scroll-proportion="0.22222222" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.WebIde50/system/extLibs/nodejs-v0.10.13-src/core-modules-sources/lib/timers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="0" selection-start="3799" selection-end="3799" vertical-scroll-proportion="0.0">
+        <state line="10" column="35" selection-start="199" selection-end="199" vertical-scroll-proportion="0.3398058">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.WebIde50/system/extLibs/nodejs-v0.10.13-src/core-modules-sources/lib/module.js">
+    <entry file="file://$PROJECT_DIR$/lib/ZFrame.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="503" column="0" selection-start="14071" selection-end="14071" vertical-scroll-proportion="0.5830721">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="26" selection-start="806" selection-end="806" vertical-scroll-proportion="-7.52">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/controller2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="19" selection-start="220" selection-end="220" vertical-scroll-proportion="0.12779553">
-          <folding>
-            <element signature="e#0#161#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="292" column="0" selection-start="5722" selection-end="5722" vertical-scroll-proportion="0.44408944">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.WebIde50/system/extLibs/nodejs-v0.10.13-src/core-modules-sources/lib/net.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1057" column="0" selection-start="26979" selection-end="26979" vertical-scroll-proportion="0.33865815">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/zframe.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="355" selection-end="355" vertical-scroll-proportion="0.5079872">
+        <state line="12" column="26" selection-start="335" selection-end="335" vertical-scroll-proportion="0.46601942">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/controller.js">
+    <entry file="file://$PROJECT_DIR$/config.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="538" selection-end="775" vertical-scroll-proportion="0.36102235">
+        <state line="4" column="39" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.json">
+    <entry file="file://$PROJECT_DIR$/lib/view.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="25" selection-start="51" selection-end="51" vertical-scroll-proportion="0.12779553">
+        <state line="13" column="11" selection-start="218" selection-end="225" vertical-scroll-proportion="-2.9820144">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/session.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="5" selection-start="716" selection-end="716" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="6" selection-start="10" selection-end="10" vertical-scroll-proportion="0.035971224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/cookie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="32" selection-start="409" selection-end="409" vertical-scroll-proportion="0.035971224">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.WebIde50/system/extLibs/nodejs-v0.10.13-src/core-modules-sources/lib/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.36824325">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.WebIde50/system/extLibs/nodejs-v0.10.13-src/core-modules-sources/lib/console.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="0" selection-start="1945" selection-end="1945" vertical-scroll-proportion="0.36824325">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="0" selection-start="1608" selection-end="1608" vertical-scroll-proportion="0.51660514">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="701" selection-end="701" vertical-scroll-proportion="0.6317568">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="39" selection-start="445" selection-end="445" vertical-scroll-proportion="0.7972973">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="7" selection-start="2498" selection-end="2498" vertical-scroll-proportion="0.8523985">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/controller2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="25" selection-start="278" selection-end="278" vertical-scroll-proportion="0.27027026">
+          <folding>
+            <element signature="e#0#161#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="0" selection-start="77" selection-end="1584" vertical-scroll-proportion="1.945946">
           <folding />
         </state>
       </provider>

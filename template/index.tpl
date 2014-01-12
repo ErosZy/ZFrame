@@ -60,6 +60,11 @@
             }
         %>
 
+        <form action = "./index03" method="post"/>
+            <input type="text" name="age" value="1"/>
+            <input type="submit"/>
+        </form>
+
         <script src="./js/jquery-1.8.3.min.js"></script>
         <script>
             $.ajax({
