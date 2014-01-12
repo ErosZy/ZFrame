@@ -9,6 +9,6 @@
     "righter" : "%>",
     "cache" : false,
     "cacheTime" : 0,
-    "serverPort" : 8080,
-    "middle":["static","post","cookie","session"]
+    "serverPort" : 8081,
+    "middle":["static","text","redirect","download","post","cookie","session","xss"]
 }
