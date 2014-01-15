@@ -2,20 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a829b4b-42ab-4754-90c4-dfb602c4ca69" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/util.js" />
-      <change type="MOVED" beforePath="C:\Users\zhaoyang07\ZFrame\lib\zframe.js" afterPath="$PROJECT_DIR$/lib/ZFrame.js" />
+      <change type="DELETED" beforePath="C:\Users\zhaoyang07\ZFrame\modal\modal.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.json" afterPath="$PROJECT_DIR$/config.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/controller.js" afterPath="$PROJECT_DIR$/controller/controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/controller2.js" afterPath="$PROJECT_DIR$/controller/controller2.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/App.js" afterPath="$PROJECT_DIR$/lib/App.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/cookie.js" afterPath="$PROJECT_DIR$/lib/cookie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/post.js" afterPath="$PROJECT_DIR$/lib/post.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/redirect.js" afterPath="$PROJECT_DIR$/lib/redirect.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/session.js" afterPath="$PROJECT_DIR$/lib/session.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/static.js" afterPath="$PROJECT_DIR$/lib/static.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/text.js" afterPath="$PROJECT_DIR$/lib/text.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/util.js" afterPath="$PROJECT_DIR$/lib/util.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/view.js" afterPath="$PROJECT_DIR$/lib/view.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.js" afterPath="$PROJECT_DIR$/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/_serialize/index.tpl.nhtml" afterPath="$PROJECT_DIR$/template/_serialize/index.tpl.nhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/xss.js" afterPath="$PROJECT_DIR$/lib/xss.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/index.tpl" afterPath="$PROJECT_DIR$/template/index.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/index2.tpl" afterPath="$PROJECT_DIR$/template/index2.tpl" />
     </list>
     <ignored path="ZFrame.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,22 +49,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/modal/modal.js" />
-        <option value="$PROJECT_DIR$/modal/zframe.js" />
-        <option value="$PROJECT_DIR$/lib/zframe.js" />
-        <option value="$PROJECT_DIR$/lib/static.js" />
-        <option value="$PROJECT_DIR$/lib/view.js" />
-        <option value="$PROJECT_DIR$/lib/ZFrame.js" />
-        <option value="$PROJECT_DIR$/config.json" />
-        <option value="$PROJECT_DIR$/lib/cookie.js" />
+        <option value="$PROJECT_DIR$/template/index2.tpl" />
+        <option value="E:/js/demo.html" />
         <option value="$PROJECT_DIR$/lib/session.js" />
+        <option value="$PROJECT_DIR$/lib/static.js" />
+        <option value="$PROJECT_DIR$/controller/controller2.js" />
         <option value="$PROJECT_DIR$/lib/util.js" />
         <option value="$PROJECT_DIR$/template/index.tpl" />
-        <option value="$PROJECT_DIR$/lib/post.js" />
-        <option value="$PROJECT_DIR$/main.js" />
-        <option value="$PROJECT_DIR$/controller/controller2.js" />
         <option value="$PROJECT_DIR$/controller/controller.js" />
+        <option value="$PROJECT_DIR$/lib/cookie.js" />
+        <option value="$PROJECT_DIR$/lib/redirect.js" />
+        <option value="$PROJECT_DIR$/lib/xss.js" />
+        <option value="$PROJECT_DIR$/lib/view.js" />
+        <option value="$PROJECT_DIR$/main.js" />
         <option value="$PROJECT_DIR$/lib/App.js" />
+        <option value="$PROJECT_DIR$/lib/post.js" />
+        <option value="$PROJECT_DIR$/config.json" />
       </list>
     </option>
   </component>
@@ -126,6 +128,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -144,63 +147,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZFrame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZFrame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZFrame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZFrame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZFrame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZFrame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="preferences.editor" />
+    <property name="last_opened_file_path" value="E:/js" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="E:/js/zhoubao" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -263,18 +223,39 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15413254" sideWeight="0.2113402" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15413254" sideWeight="0.3298969" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39003438" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913166" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1474947" sideWeight="0.17507003" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14519732" sideWeight="0.6701031" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43986255" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44673538" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4789916" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286219" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -336,133 +317,116 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/lib/App.js</url>
-          <line>173</line>
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="63" />
+      <option name="time" value="65" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/download.js">
+    <entry file="file://$PROJECT_DIR$/lib/util.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="17" selection-start="275" selection-end="276" vertical-scroll-proportion="0.5339806">
+        <state line="11" column="1" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/static.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="35" selection-start="199" selection-end="199" vertical-scroll-proportion="0.3398058">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ZFrame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="26" selection-start="335" selection-end="335" vertical-scroll-proportion="0.46601942">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="39" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/view.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="11" selection-start="218" selection-end="225" vertical-scroll-proportion="-2.9820144">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/session.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="5" selection-start="716" selection-end="716" vertical-scroll-proportion="0.0">
+        <state line="9" column="19" selection-start="226" selection-end="226" vertical-scroll-proportion="0.32374102">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/util.js">
+    <entry file="file://$PROJECT_DIR$/lib/redirect.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="6" selection-start="10" selection-end="10" vertical-scroll-proportion="0.035971224">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/cookie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="32" selection-start="409" selection-end="409" vertical-scroll-proportion="0.035971224">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.WebIde50/system/extLibs/nodejs-v0.10.13-src/core-modules-sources/lib/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.36824325">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.WebIde50/system/extLibs/nodejs-v0.10.13-src/core-modules-sources/lib/console.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="1945" selection-end="1945" vertical-scroll-proportion="0.36824325">
+        <state line="3" column="18" selection-start="33" selection-end="33" vertical-scroll-proportion="0.107913665">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/post.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="0" selection-start="1608" selection-end="1608" vertical-scroll-proportion="0.51660514">
+        <state line="4" column="8" selection-start="86" selection-end="86" vertical-scroll-proportion="0.1438849">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
+    <entry file="file://$PROJECT_DIR$/lib/download.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="701" selection-end="701" vertical-scroll-proportion="0.6317568">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/controller.js">
+    <entry file="file://$PROJECT_DIR$/lib/cookie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="39" selection-start="445" selection-end="445" vertical-scroll-proportion="0.7972973">
+        <state line="4" column="27" selection-start="69" selection-end="69" vertical-scroll-proportion="0.035971224">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="7" selection-start="2498" selection-end="2498" vertical-scroll-proportion="0.8523985">
+        <state line="5" column="31" selection-start="82" selection-end="82" vertical-scroll-proportion="0.035971224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ZFrame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/xss.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="2" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/text.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="14" selection-start="128" selection-end="128" vertical-scroll-proportion="0.35971224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2014-01-15_001203.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2014-01-15_000906.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2014-01-15_000551.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="826" selection-end="826" vertical-scroll-proportion="0.92805755">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/controller2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="25" selection-start="278" selection-end="278" vertical-scroll-proportion="0.27027026">
-          <folding>
-            <element signature="e#0#161#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="0" selection-start="77" selection-end="1584" vertical-scroll-proportion="1.945946">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

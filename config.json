@@ -2,13 +2,13 @@
     "ZFrame_path": "./",
     "lib_path" : "./lib/",
     "public_path" : "./public/",
-    "controller_path" : "./controller",
+    "controller_path" : "./controller/",
     "template_path" : "./template/",
     "serialize_path" : "./template/_serialize/",
     "lefter" : "<%",
     "righter" : "%>",
     "cache" : false,
-    "cacheTime" : 0,
-    "serverPort" : 8081,
-    "middle":["static","text","redirect","download","post","cookie","session","xss"]
+    "cacheTime" : 5,
+    "serverPort" : 8080,
+    "middle":["static","text","redirect","download","post","session","cookie","xss"]
 }

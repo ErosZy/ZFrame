@@ -6,8 +6,9 @@
  * To change this template use File | Settings | File Templates.
  */
 var index = 2;
-App.post("./index03",function(req,res){
-    console.log("this is index03");
+
+App.post("./index10",function(req,res){
+    console.log(req.body);
     res.statusCode = 200;
     res.end();
 })
