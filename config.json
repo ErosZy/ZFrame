@@ -4,11 +4,9 @@
     "public_path" : "./public/",
     "controller_path" : "./controller/",
     "template_path" : "./template/",
-    "serialize_path" : "./template/_serialize/",
     "lefter" : "<%",
     "righter" : "%>",
-    "cache" : false,
-    "cacheTime" : 5,
-    "serverPort" : 8080,
-    "middle":["static","text","redirect","download","post","session","cookie","xss"]
+    "server_port" : 8080,
+    "middle":["static","text","redirect","download","post","session","cookie","xss"],
+    "upload_max_size" : "2M"
 }

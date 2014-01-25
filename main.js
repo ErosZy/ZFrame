@@ -17,12 +17,12 @@ var fs = require("fs"),
     _reg = new RegExp("(.+)\s*=\s*.+","g");
 
 //使用中间件
-for(var i = 0,_length = _config.middle.length; i < _length ; i++){
-    App.use(ZF[_config.middle[i]]);
+for(var i = 0,_length = _config["middle"].length; i < _length ; i++){
+    App.use(ZF[_config["middle"][i]]);
 }
 
 //扫描controller文件夹，将里面的controller全部读取
-fs.readdir(_config.controller_path,function(err,_files){
+fs.readdir(_config["controller_path"],function(err,_files){
     _fileCount = _files.length;
 
     for(var i = 0; i < _fileCount ;i++){
@@ -55,4 +55,4 @@ fs.readdir(_config.controller_path,function(err,_files){
 });
 
 //监听端口
-App.listen(_config.serverPort);
+App.listen(_config["server_port"]);
