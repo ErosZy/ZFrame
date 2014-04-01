@@ -55,4 +55,6 @@ fs.readdir(_config["controller_path"],function(err,_files){
 });
 
 //监听端口
-App.listen(_config["server_port"]);
+App.listen(_config["server_port"],function(){
+    console.log("server is listening port: "+_config["server_port"]);
+});
